@@ -2,15 +2,15 @@ include <BOSL2/std.scad>
 
 $fn = 64;
 
-wallStrength = 4;
+wallStrength = 6;
 
-stickShaftDiameter = 9.6 * 1.001;
-stickShaftHeight = 3.39;
+stickShaftDiameter = 9.6 * 1.01;
+stickShaftHeight = 3.39 * 0.9;
 stickDistance = 41.85 * 1.002;
 
 outerDiameter = stickShaftDiameter + wallStrength * 2;
 
-cutoutScale = 0.95;
+cutoutScale = 0.98;
 
 
 
